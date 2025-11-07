@@ -1,16 +1,44 @@
-# React + Vite
+# 🚀 Crypto Dash
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, real-time cryptocurrency dashboard built with React and Vite. Track live prices, market caps, and percentage changes for the top cryptocurrencies.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**[View Live Application](https://crypto-dash-lmut04xaw-adams-projects-6a0f6282.vercel.app/)**
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 📊 Real-time cryptocurrency data from CoinGecko API
+- 🔍 Search and filter coins by name or symbol
+- 📈 View price, market cap, and 24h percentage changes
+- 🎨 Modern dark theme UI
+- 📱 Fully responsive design
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 18+
+- Vite
+- CoinGecko API
+- Deployed on Vercel
+
+## Usage
+
+### Install dependencies
+```bash
+npm install
+```
+
+### Run project
+```bash
+npm run dev
+```
+
+### Build for production
+```bash
+npm run build
+```
+
+### Run production build
+```bash
+npm run preview
+```
